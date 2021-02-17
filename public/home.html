@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - MyDictionary</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="body">
+    <header class="cabeceraWeb">
+        <div class="cabeceraImagen">
+            <img src="dictionary1.jpg">
+        </div>
+        <div class="text">
+            <p>MyDictionary - Tu lugar para aprender</p>
+        </div>
+        <div class="botonesTexto">
+            <a href="home.html"><button class="botonesListaInicio">Main page</button></a>
+            <a href="mydictionary.html"> <button class="botonesListaMyDic">MyDictionary</button></a>
+            <a href="addpalabra.html"><button class="botonesListaAdd">Add a word</button></a>
+            <a href="flashcards.html"><button class="botonesListaJuega">Flashcards</button></a>
+            <a href="about.html"> <button class="botonesListaAcerca">About...</button></a>
+        </div>
+    </header>
+    
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="1.jpg" style="width:100%">
+            <div class="texto">Si necesitas ayuda para aprender</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="2.jpg" style="width:100%">
+            <div class="texto">MyDictionary es el lugar indicado</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="3.jpg" style="width:100%">
+            <div class="texto">Aprende lo que quieras, como quieras, cuando quieras</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="nuevoUsuarioLoguear">
+        <input placeholder="New User" id="newUser" type="text" name="newUser">
+        <input placeholder="Password" id="password" type="text" name="password">
+        <button id="addNewUser">New user</button>
+    
+        <input placeholder="User" id="existantUser" type="text" name="existantUser">
+        <input placeholder="Password" id="password" type="text" name="password">
+        <button id="loginUser">Login</button>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <footer class="footer">Ejercicio final Módulo 02 - Bootcamp IX Edition JavaScript Full Stack Developer. Javier García Martínez
+        © 2021.</footer>
+</body>
+<script>
+
+</script>
+</html>

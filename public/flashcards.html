@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your flashcards - MyDictionary</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="body">
+    <header class="cabeceraWeb">
+        <div class="cabeceraImagen">
+            <img src="dictionary1.jpg">
+        </div>
+        <div class="text">
+            <p>MyDictionary - Tu lugar para aprender</p>
+        </div>
+        
+        <div class="botonesTexto">
+            <a href="home.html"><button class="botonesListaInicio">Main page</button></a>
+            <a href="mydictionary.html"> <button class="botonesListaMyDic">MyDictionary</button></a>
+            <a href="addpalabra.html"><button class="botonesListaAdd">Add a word</button></a>
+            <a href="flashcards.html"><button class="botonesListaJuega">Flashcards</button></a>
+            <a href="about.html"> <button class="botonesListaAcerca">About...</button></a>
+        </div>
+    </header>
+    <div class="flashcardBloque">
+        <div class="scene scene--card">
+            <div class="card">
+                <div class="card__face card__face--front"></div>
+                <div class="card__face card__face--back"></div>
+            </div>
+        </div>
+        <div class="flashcardReload"><button onclick="window.location.reload();">Try another one!</button>
+            <p></p><div class="flashcardDescripcion"></div>
+        </div>
+        
+        
+    </div>
+    <script src="js/script.js"></script>
+    <p class="textoFlipCard">Click card to flip.</p>
+
+
+
+    <footer class="footer">Ejercicio final Módulo 02 - Bootcamp IX Edition JavaScript Full Stack Developer. Javier García Martínez
+        © 2021.</footer>
+</body>
+
+</html>

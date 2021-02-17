@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add word to MyDictionary</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="body">
+    <header class="cabeceraWeb">
+        <div class="cabeceraImagen">
+            <img src="dictionary1.jpg">
+        </div>
+        <div class="text"><p>MyDictionary - Tu lugar para aprender</p></div>
+        <div class="botonesTexto">
+            <a href="home.html"><button class="botonesListaInicio">Main page</button></a>
+            <a href="mydictionary.html"> <button class="botonesListaMyDic">MyDictionary</button></a>
+            <a href="addpalabra.html"><button class="botonesListaAdd">Add a word</button></a>
+            <a href="flashcards.html"><button class="botonesListaJuega">Flashcards</button></a>
+            <a href="about.html"> <button class="botonesListaAcerca">About...</button></a>
+        </div>
+    </header>
+    <h2 class="titleAdd">Introduce aquí tu nueva palabra. Add your new word.</h2>
+    <div class="listaInput">
+    <input placeholder="castellano" id="castellano" type="text" name="castellano">
+    <input placeholder="ingles" id="ingles" type="text" name="ingles">
+    <input placeholder="descripcion" id="descripcion" type="text" name="descripcion">
+    <p></p>
+    <button id="addPalabra">Añadir palabra a MyDictionary</button>
+</div>
+    <p></p>
+    <h2 class="titleAdd">Aquí puedes eliminar una palabra de MyDictionary. You can delete words from MyDictionary here.</h2>
+<div class="listaDeleteWord">
+    <input placeholder="borrar" id="borrar" type="text" name="borrar">
+    <p></p>
+    <button id="borrarPalabra">Borrar palabra de MyDictionary</button>
+</div>
+    
+    
+    <footer class="footer">Ejercicio final Módulo 02 - Bootcamp IX Edition JavaScript Full Stack Developer. Javier García Martínez
+        © 2021.</footer>
+        <script src="js/script.js"></script>
+</body>
+
+
+</html>
